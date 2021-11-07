@@ -86,6 +86,9 @@
     padding-top: 10px;
     cursor: pointer;
 }
+#ham{
+    display: none;
+}
 #right{
     position: relative;
     top: 57px;
@@ -150,18 +153,18 @@
     }
     #left{
         position: absolute;
-        left: 114%;
+        left: 508px;
         top: -80px;
     }
     #right{
         position: absolute;
         top: -80px;
-        left: 130%;
+        left: 580px;
     }
     #light{
         width: 700px;
         position: relative;
-        top: 100px;
+        top: 400px;
     }
 }
 
@@ -179,14 +182,48 @@
     }
     #right{
         top: -86px;
+        left: 480px;
     }
     #left{
         top: -86px;
+        left: 408px;
     }
     #dark{
         width: 630px;
     }
     #light{
         width: 630px;
+    }
+}
+
+@media screen and (max-width: 403px){
+    .detail1 >h1{
+        font-size: 30px;
+    }
+    .detail1 >h4{
+        font-size: 13px;
+    }
+    .detail1{
+        position: absolute;
+        top: 420px;
+    }
+    .bottom {
+        position: relative;
+        top: 770px;
+    }
+    .menu >h3{
+        display: none;
+    }
+    .menu >h2{
+        position: relative;
+        left: 180px;
+    }
+    #ham{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 10px;
+        cursor: pointer;
     }
 }
