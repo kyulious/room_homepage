@@ -1,0 +1,192 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+#hero1{
+    position: absolute;
+}
+.menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding-top: 40px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+.menu >h3{
+    padding-left: 50px;
+    font-weight: lighter;
+}
+.menu >h2{
+    font-size: 33px;
+    margin-top: 7px;
+}
+.detail1{
+    background-color: #fff;
+    z-index: 1;
+    left: 350px;
+    position: relative;
+}
+.detail1 >h1{
+    font-size: 40px;
+    font-family: 'Spartan', sans-serif;
+    left: 80px;
+    position: relative;
+    top: 100px;
+}
+.detail1 >h4{
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    font-weight: lighter;
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+.detail1 >h3{
+    cursor: pointer;
+    letter-spacing: 9px;
+    color: rgb(80, 80, 80);
+    position: relative;
+    top: 110px;
+    left: 80px;
+}
+#arrow{
+    position: relative;
+    top: 70px;
+    left: 290px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#left{
+    position: relative;
+    top: 129px;
+    left: -26px;
+    font-size: 40px;
+    background-color: #111;
+    color: rgb(153, 153, 153);
+    width: 70px;
+    height: 60px;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid #111;
+    vertical-align: middle;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#right{
+    position: relative;
+    top: 57px;
+    left: 46px;
+    font-size: 40px;
+    background-color: #111;
+    color: rgb(153, 153, 153);
+    width: 70px;
+    height: 60px;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid #111;
+    vertical-align: middle;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    top: 57px;
+    position: relative;
+}
+.detail2{
+    width: 700px;
+}
+.detail2 >h3{
+    font-size: 17px;
+    top: 40px;
+    left: 50px;
+    position: relative;
+    letter-spacing: 5px;
+    position: relative;
+}
+.detail2 >h4{
+    font-size: 14px;
+    color: grey;
+    font-weight: lighter;
+    top: 35px;
+    left: 50px;
+    position: relative;
+}
+
+@media screen and (max-width: 707px){
+    
+    #hero1{
+        width: 700px;
+    }
+    .detail1{
+        position: absolute;
+        left: 50px;
+        top: 460px;
+    }
+    .bottom{
+        position:relative;
+        top: 850px;
+        display: flex;
+        flex-direction: column;
+    }
+    #dark{
+        width: 700px;
+    }
+    #left{
+        position: absolute;
+        left: 114%;
+        top: -80px;
+    }
+    #right{
+        position: absolute;
+        top: -80px;
+        left: 130%;
+    }
+    #light{
+        width: 700px;
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 496px){
+    #hero1{
+        width: 630px;
+    }
+    .detail1{
+        position: absolute;
+        left: 50px;
+        top: 420px;
+    }
+    .detail1 >h4{
+        font-size: 15px;
+    }
+    #right{
+        top: -86px;
+    }
+    #left{
+        top: -86px;
+    }
+    #dark{
+        width: 630px;
+    }
+    #light{
+        width: 630px;
+    }
+}
