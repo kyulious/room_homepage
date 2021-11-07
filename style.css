@@ -218,6 +218,9 @@
         position: relative;
         left: 180px;
     }
+    .detail2 >h4{
+        font-size: 12px;
+    }
     #ham{
         display: block;
         width: 30px;
