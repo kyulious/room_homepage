@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (max-width: 496px){
+/* @media screen and (max-width: 496px){
     #hero1{
         width: 630px;
     }
@@ -194,9 +194,9 @@
     #light{
         width: 630px;
     }
-}
+} */
 
-@media screen and (max-width: 403px){
+@media screen and (max-width: 496px){
     .detail1 >h1{
         font-size: 30px;
     }
@@ -205,7 +205,7 @@
     }
     .detail1{
         position: absolute;
-        top: 420px;
+        top: 460px;
     }
     .bottom {
         position: relative;
@@ -225,5 +225,8 @@
         position: relative;
         top: 10px;
         cursor: pointer;
+    }
+    #light{
+        top: 150px;
     }
 }
